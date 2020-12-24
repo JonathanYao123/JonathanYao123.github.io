@@ -1,0 +1,26 @@
+
+
+html{
+	overflow-y: scroll;
+	box-sizing: border-box;
+	height: 100%;
+}
+
+body{
+	background-size: cover;
+  	background-attachment: fixed;
+}
+
+#container{
+    width:100%;
+}
+
+/*nav*/
+.nav-background{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 40px;
+    width: 100%;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 1);
+}
