@@ -22,5 +22,31 @@ body{
     left: 0px;
     height: 40px;
     width: 100%;
-    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 1);
+    box-shadow: 2px 3px 4px 0px rgba(0, 0, 0, .5);
+}
+
+.nav-container{
+        overflow: auto;
+        width:1000px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+a.nav-item:link, a.nav-item:visited{
+
+    border-right: 1px solid;
+    border-color: #000011;
+    line-height: 40px;
+    color: #000011;
+    font-weight: 300;
+	font-size: 24px;
+    text-transform: uppercase;
+    display: inline-block;
+    text-decoration: none;
+    padding-right: 16px;
+    padding-left: 16px;
+    letter-spacing: 1.6px;
+    }
+a.nav-item:last-child{
+    border-right: 0;
 }
