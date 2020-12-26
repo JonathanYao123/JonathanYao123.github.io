@@ -77,38 +77,9 @@ h1{
 	color: #b6a19e;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 768px) {
 
-	a.nav-item:first-child{
-		border-right: 0;
-		padding-right: 100px;
-	}
-}
-
-@media only screen and (max-width: 800px) {
-
-	a.nav-item:first-child{
-		border-right: 0;
-		padding-right: 500px;
-	}
-}
-
-@media only screen and (max-width: 740px) {
-	a.nav-item:first-child{
-		border-right: 0;
-		padding-right: 400px;
-	}
-}
-@media only screen and (max-width: 640px) {
-	a.nav-item:first-child{
-		border-right: 0;
-		padding-right: 300px;
-	}
-}
-@media only screen and (max-width: 540px) {
-	a.nav-item:first-child{
-		border-right: 0;
-		padding-right: 200px;
-		padding-left: 0px;
+	.nav-container{
+		width: 100%;
 	}
 }
