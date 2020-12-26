@@ -56,7 +56,7 @@ a.nav-item:last-child{
 
 a.nav-item:first-child{
 	border-right: 0;
-	padding-right: 500px;
+	padding-right: 400px;
 }
 
 .resume {
@@ -77,9 +77,11 @@ h1{
 	color: #b6a19e;
 }
 
-@media only screen and (max-width: 768px) {
-
-	.nav-container{
-		width: 100%;
-	}
+.content{
+	font-size: 14px;
+	width: 100%;
+	text-align: center;
+	font-weight: 200;
+	padding-top: 100px;
+	color: #b6a19e;
 }
