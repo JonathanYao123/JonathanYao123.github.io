@@ -93,12 +93,21 @@ h1{
 }
 
 @media (max-width: 747px){
-	a.nav-item:first-child{
-		width: 75%;
+
+	a.nav-item{
+		position: static;
 	}
 
-	.nav-background{
-		
+	a.nav-item:link, a.nav-item:visited{
+	    line-height: 32px;
+		font-size: 16px;
+	}
+
+
+	a.nav-item:first-child{
+		width: 80%;
+		padding-right: 100px;
+		padding-left: 50px;
 	}
 
 	.resume {
@@ -112,3 +121,17 @@ h1{
 	  	padding-top: 100px;
 	}
 }
+
+@media (max-width: 364px){
+
+	a.nav-item:link, a.nav-item:visited{
+		font-size: 10px;
+	}
+
+	a.nav-item:first-child{
+		width: 63%;
+		padding-right: 100px;
+	}
+}
+
+	
