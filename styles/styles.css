@@ -122,6 +122,16 @@ h1{
 	}
 }
 
+@media (max-width: 450px){
+
+	a.nav-item:first-child{
+		width: 72%;
+		padding-right: 100px;
+		padding-left: 50px;
+	}
+}
+
+
 @media (max-width: 364px){
 
 	a.nav-item:link, a.nav-item:visited{
