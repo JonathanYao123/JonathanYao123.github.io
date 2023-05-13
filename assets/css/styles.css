@@ -74,3 +74,30 @@ body {
   border: 2px solid #494949;
   border-radius: 25px;
 }
+
+.btn-join{
+	background-color: #a82323;
+	border-radius: 50px;
+	color:#ffffff;
+}
+
+.btn-join:hover{
+	background-color: #646464;
+	color:#a82323;
+}
+
+.file-display-hidden{
+	display: none;
+}
+
+.form-background{
+	background-color: #f1f1f1;
+}
+
+.btn-file{
+	background-color: #c9c9c9;
+	border-radius: 25px;
+}
+.btn-file:hover{
+	background-color: #a7a6a6;
+}
